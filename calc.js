@@ -6,8 +6,9 @@ const reader = readline.createInterface({
 });
 
 
-
-reader.question("What would you like to calculate?", function(input){
+let name = "tuli"
+console.log(`hello ${name}.`)
+reader.question("please validate your password.", function(input){
 	tokens = input.split(' ');
 	
 	mathSymbol = tokens[0];
